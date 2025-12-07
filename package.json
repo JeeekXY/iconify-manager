@@ -1,0 +1,36 @@
+{
+	"name": "iconify-manager",
+	"version": "0.1.7",
+	"description": "A tool for managing IconifyJSON file",
+	"keywords": [
+		"iconify",
+		"icon",
+		"svg"
+	],
+	"homepage": "https://github.com/JeeekXY/iconify-manager#readme",
+	"bugs": {
+		"url": "https://github.com/JeeekXY/iconify-manager/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JeeekXY/iconify-manager.git"
+	},
+	"license": "MIT",
+	"type": "module",
+	"main": "src/manager.js",
+	"bin": {
+		"iconify-manager": "src/manager.js"
+	},
+	"files": [
+		"src/manager.js",
+		"src/page/dist"
+	],
+	"scripts": {
+		"start": "node src/manager.js"
+	},
+	"dependencies": {
+		"@iconify/tools": "^5.0.0",
+		"express": "^5.2.1",
+		"minimist": "^1.2.8"
+	}
+}
